@@ -1,0 +1,27 @@
+POST http://localhost:3000/auth/signup
+Content-Type:  application/json
+
+{
+    "email": "rei@req.com",
+    "password" : "req"
+}
+
+###
+GET http://localhost:3000/auth/1
+
+###
+GET http://localhost:3000/auth?email=mini@maxi.com
+
+### TODOS
+GET http://localhost:3000/auth/
+
+###
+PATCH http://localhost:3000/auth/4
+Content-Type:  application/json
+
+{
+    "email" : "AAA@wAAww.com"
+}
+
+###
+DELETE  http://localhost:3000/auth/122
