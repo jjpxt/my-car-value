@@ -1,0 +1,12 @@
+POST http://localhost:3000/reports/
+Content-Type: application/json
+
+{
+    "make": "VW",
+    "model":"Golf R",
+    "year": 2022,
+    "mileage": 40000,
+    "lng":0,
+    "lat":0,
+    "price":33000
+}
