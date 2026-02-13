@@ -2,11 +2,19 @@ POST http://localhost:3000/reports/
 Content-Type: application/json
 
 {
-    "make": "VW",
-    "model":"Golf R",
-    "year": 2022,
-    "mileage": 40000,
+    "make": "GM",
+    "model":"Chevette",
+    "year": 1992,
+    "mileage": 400500,
     "lng":0,
     "lat":0,
-    "price":33000
+    "price":3000
+}
+
+###
+PATCH  http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+    "approved": true
 }
